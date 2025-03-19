@@ -50,10 +50,15 @@ function App() {
               borderRadius: "5px",
               height: "100%",
               width: "100%",
+              minHeight: "300px" /* Ensures scrolling works */,
+              maxHeight: "82vh" /* Prevents it from growing infinitely */,
+              overflowY: "auto" /* Enables scrolling */,
             }}
           />
         </div>
-        <button onClick={reviewCode} className="review">Review</button>
+        <button onClick={reviewCode} className="review">
+          Review
+        </button>
       </div>
       <div className="right">
         <Markdown rehypePlugins={[rehypeHighlight]}>{review}</Markdown>

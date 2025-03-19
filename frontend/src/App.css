@@ -29,6 +29,7 @@ main .right  {
 main .left{
   background-color: #000000;
   position: relative;
+  
 }
  
 .left .code, 
@@ -37,7 +38,7 @@ main .left{
   width: 100%;
   margin: 0;
   border-radius: 0.7rem;
-  background-color: #1a1a1a;
+  background-color: #1d1c1c;
 }
 
 main .left .review{
@@ -54,8 +55,11 @@ main .left .review{
 }
 
 main .right{
-  background-color: #6d6d6d;
+  background-color: #585757;
   padding: 1rem 2rem;
   font-size: 1.1rem;
   overflow: auto;
 }
+
+
+
